@@ -1,7 +1,7 @@
 :root {
   --brand-color: #4d5ae5;
   --shadows-color: #2e2f42;
-  --background: #ffffff;
+  --background: #FFFFFF;
   --cloud: #f4f4fd;
   --background-footer: #2e2f42;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 .navigation-link {
-  color: var(--brand-color;)
+  color: var(--brand-color);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -32,7 +32,7 @@ body {
 
 .logo {
   color: var(--shadows-color);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.16;
@@ -54,10 +54,14 @@ body {
 }
 
 
-.address-info {
-  color: currentColor;
+.address {
   font-style: normal;
+  
+}
+.address-info {
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: currentColor;
 }
 
 .footer {
@@ -65,12 +69,12 @@ body {
 }
 
 .footer-logo {
-  color: var(--cloud);
-  font-family: Raleway;
+  color: var(--brand-color);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -78,6 +82,11 @@ body {
 .footer-text {
   color: var(--cloud);
   letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+.logo-footer {
+  color: #f4f4fd;
 }
 
 .section-subject {
@@ -93,10 +102,22 @@ body {
 }
 
 .title-button {
+  font-family: "Roboro" sans-serif;
   color: var(--background);
   font-weight: 500;
   letter-spacing: 0.04em;
   background-color: var(--brand-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.title-button:hover,
+.title-button:focus {
+  color: #404BBF;
+}
+
+.button {
+  cursor: pointer;
 }
 
 .subtitle {
@@ -108,7 +129,12 @@ body {
 }
 
 .subtitle-text {
+  line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.section-caption {
+  background-color: #f4f4fd;
 }
 
 .benefits {
@@ -129,7 +155,7 @@ body {
   text-transform: capitalize;
 }
 .title-team-item {
-  background-color: var(--cloud);
+  background-color: #FFFFFF
 }
 .name {
   color: var(--background-footer);
@@ -139,6 +165,7 @@ body {
   letter-spacing: 0.02em;
 }
 .profession {
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
