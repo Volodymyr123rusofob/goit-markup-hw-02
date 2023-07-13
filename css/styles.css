@@ -1,14 +1,14 @@
 :root {
   --brand-color: #4d5ae5;
   --shadows-color: #2e2f42;
-  --background: #FFFFFF;
+  --background: #ffffff;
   --cloud: #f4f4fd;
   --background-footer: #2e2f42;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: var(--#FFFFFF)
+  background-color: var(--background);
   line-height: 1.5;
 }
 
@@ -22,7 +22,7 @@ body {
 
 .navigation-link {
   color: var(--brand-color);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -32,7 +32,7 @@ body {
 
 .logo {
   color: var(--shadows-color);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.16;
@@ -50,13 +50,11 @@ body {
 
 .focused:hover,
 .focused:focus {
-  color: #404bbf
+  color: #404bbf;
 }
-
 
 .address {
   font-style: normal;
-  
 }
 .address-info {
   line-height: 1.5;
@@ -70,7 +68,7 @@ body {
 
 .footer-logo {
   color: var(--brand-color);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -102,7 +100,7 @@ body {
 }
 
 .title-button {
-  font-family: "Roboro", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--background);
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -113,23 +111,22 @@ body {
 }
 .title-button:hover,
 .title-button:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .filter-button {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--brand-color);
   background-color: var(--cloud);
-
 }
 
 .filter-button:hover,
 .filter-button:focus {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #404bbf;
 }
 
@@ -172,7 +169,7 @@ body {
   text-transform: capitalize;
 }
 .title-team-item {
-  background-color: #FFFFFF
+  background-color: #ffffff;
 }
 .name {
   color: var(--background-footer);
@@ -194,7 +191,7 @@ body {
   color: #434455;
 }
 
-.subtitle-upper{
+.subtitle-upper {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -202,3 +199,10 @@ body {
   color: #2e2f42;
 }
 
+.mark {
+  line-height: 1.5;
+}
+
+.mark-text {
+  letter-spacing: 0.02em;
+}
